@@ -7,7 +7,7 @@
 
 [![Software License](https://img.shields.io/badge/License-GPLv3-green)](https://github.com/Harmonize-Brazil/code-gallery/blob/main/LICENSE)
 [![Software Life Cycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/brazil-data-cube/code-gallery/blob/master/table-of-contents.ipynb)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/Harmonize-Brazil/code-gallery/blob/main/table-of-contents.ipynb)
 
 <!-- badges: end -->
 
