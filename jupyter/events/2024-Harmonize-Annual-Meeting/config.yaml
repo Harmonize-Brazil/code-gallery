@@ -1,0 +1,3 @@
+sources:
+    BDC                     :
+        url                 : "http://senegal.coids.inpe.br/bdc/int/stac/v1/"
