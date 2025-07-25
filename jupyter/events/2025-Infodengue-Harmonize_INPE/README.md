@@ -4,7 +4,7 @@
 
 <!-- <h1 style="text-align: center;">HARMONIZE Workshop<br> Infodengue-INPE Integration</h1>-->
 
-# HARMONIZE Workshop<br> Infodengue-INPE Integration 
+# HARMONIZE Workshop<br> INPE x FIOCRUZ, Infodengue and LIS Integration 
 
 <!-- badges: start -->
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
