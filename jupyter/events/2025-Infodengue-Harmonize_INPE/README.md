@@ -1,5 +1,5 @@
 
-<a href='https://data.inpe.br/bdc/web/en/home-page-2'><img src='https://data.inpe.br/bdc/web/wp-content/uploads/2021/12/logo-datacube-vertical-png-1.png' align="left" height="120" /></a>
+<a href='https://data.inpe.br/bdc/web/en/home-page-2'><img src='https://github.com/Harmonize-Brazil/code-gallery/blob/main/img/logo-datacube-vertical-png-1.png' align="left" height="120" /></a>
 <a href='https://www.harmonize-tools.org/'><img src='https://github.com/Harmonize-Brazil/code-gallery/blob/main/img/harmonize_logo_without_white_background.png' align="right" height="110" /></a>
 
 <!-- <h1 style="text-align: center;">HARMONIZE Workshop<br> Infodengue-INPE Integration</h1>-->
@@ -31,3 +31,4 @@ Coordinated by Barcelona Super Computer Center (BSC), we have the following Braz
 <a href='https://wellcome.org/'><img src='https://www.harmonize-tools.org/about-us/++resource++harmonize.components/img/logo_wellcome_trust.png?1643905094934' align="left" height="100" /></a>This work was supported by the Wellcome Trust grant number 224694/Z/21/Z.
 
 </p>
+
