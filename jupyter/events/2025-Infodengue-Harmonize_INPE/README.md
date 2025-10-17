@@ -24,6 +24,7 @@ Coordinated by Barcelona Super Computer Center (BSC), we have the following Braz
 <br>
 <img src='https://www.harmonize-tools.org/about-us/consortium/partners/national-institute-for-space-research-inpe/@@images/thumbnail_image' height="100" />
 <img src='https://www.harmonize-tools.org/about-us/consortium/partners/fiocruz/@@images/thumbnail_image' height="100" />
+<img src='https://climaesaude.icict.fiocruz.br/sites/climaesaude.icict.fiocruz.br/files/pin_obs_horizontal.png' height="100" />
 <img src='https://www.harmonize-tools.org/about-us/consortium/partners/copy3_of_onamet/@@images/thumbnail_image' height="100" />
 
 ## Acknowledgment
