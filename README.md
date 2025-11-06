@@ -12,15 +12,24 @@
 <!-- badges: end -->
 
 A gallery of Jupyter Notebooks based on data and technologies from Earth Observation Data Cube tuned for Health Response Systems
-(EODCtHRS) component of HARMONIZE project hosted at the Brazilian National Institute for Space Research (INPE).
+(EODCtHRS) component of the HARMONIZE project hosted at the Brazilian National Institute for Space Research (INPE).
 
 
 # Jupyter Notebooks
 
+## Data Access through the SpatioTemporal Asset Catalog API (STAC)
 
-## Data Access through SpatioTemporal Asset Catalog API (STAC)
+- HARMONIZE Drone image collections access using STAC. ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/events/2025-Infodengue-Harmonize_INPE/drone_using_STAC.ipynb))
+  
+- HARMONIZE Health and Climate data collections access using STAC. ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/events/2025-Infodengue-Harmonize_INPE/health_climate_using_STAC.ipynb))
 
-- Drone image collections access using STAC. ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/Python/drone/drone_image_collections_using_stac.ipynb))
+## Data Access through the Open Geospatial Consortium (OGC) Standards
+
+- Python library HARMONIZE DataSources (HarmonizeDS) to access data using OGC standards: Web Coverage Service (WCS) and Web Feature Service (WFS). ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/events/2025-Infodengue-Harmonize_INPE/Harmonize_dataset_using_OGC_standards.ipynb))
+
+## Data Cube and Satellite Image Time Series Analysis on Earth Observation Data Cubes (SITS)
+
+- Using the BDC data cube (MODIS) and the SITS package to obtain vegetation indices by municipality. ([R](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/events/2025-Infodengue-Harmonize_INPE/extract_ndvi_evi.ipynb))
 
 
 ## Publish EODCtHRS Data Collections
