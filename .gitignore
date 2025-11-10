@@ -183,3 +183,8 @@ src/cube4health/ehipr/shp_malhas/default_grid/municipality/BR_municipality_2022.
 src/cube4health/ehipr/shp_malhas/default_grid/municipality/BR_municipality_2022.prj
 src/cube4health/ehipr/shp_malhas/default_grid/municipality/BR_municipality_2022.shp
 src/cube4health/ehipr/shp_malhas/default_grid/municipality/BR_municipality_2022.shx
+
+# Drone package
+jupyter/events/2025-Harmonize-Annual-Meeting/FieldWorkCampaigns
+jupyter/events/2025-Harmonize-Annual-Meeting/cube4health
+jupyter/events/2025-Harmonize-Annual-Meeting/drone_data_harmonize_annual_meeting2025.zip
