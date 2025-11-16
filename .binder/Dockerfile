@@ -10,7 +10,6 @@ RUN apt-get update && \
         libgdal-dev \
         proj-bin \
         libproj-dev \
-        geos-bin \
         libgeos-dev \
         libspatialindex-dev \
         libhdf5-dev \
@@ -36,3 +35,4 @@ ENV PATH=/opt/conda/envs/cube4health-binder/bin:$PATH
 RUN chmod +x /tmp/postBuild && /tmp/postBuild
 
 USER $MAMBA_USER
+
