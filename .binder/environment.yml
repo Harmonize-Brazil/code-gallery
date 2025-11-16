@@ -28,5 +28,6 @@ dependencies:
   - pyarrow
   - fastparquet
   - pip:
-      - cube4health @ git+https://github.com/Harmonize-Brazil/cube4health.git@master
+      - cube4health @ git+https://github.com/Harmonize-Brazil/cube4health.git@main
+
 
