@@ -4,9 +4,11 @@ libgdal-dev
 
 # PROJ (coordinate reference transformations)
 proj-bin
+proj-data
 libproj-dev
 
 # GEOS (geometry engine used by Shapely)
+geos-bin
 libgeos-dev
 
 # Spatial index libraries (recommended for GeoPandas)
@@ -15,4 +17,3 @@ libspatialindex-dev
 # Optional but recommended scientific libraries
 libhdf5-dev
 libnetcdf-dev
-
