@@ -1,2 +1,18 @@
-libgdal-dev
+# GDAL libraries and command-line tools
 gdal-bin
+libgdal-dev
+
+# PROJ (coordinate reference transformations)
+proj-bin
+libproj-dev
+
+# GEOS (geometry engine used by Shapely)
+libgeos-dev
+
+# Spatial index libraries (recommended for GeoPandas)
+libspatialindex-dev
+
+# Optional but recommended scientific libraries
+libhdf5-dev
+libnetcdf-dev
+
