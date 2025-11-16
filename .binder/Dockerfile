@@ -21,8 +21,8 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Binder configuration files into the image
-COPY environment.yml /tmp/environment.yml
-COPY postBuild /tmp/postBuild
+COPY .binder/environment.yml /tmp/environment.yml
+COPY .binder/postBuild /tmp/postBuild
 
 # Use micromamba to create the environment from YAML
 RUN micromamba env create -f /tmp/environment.yml -y && \
