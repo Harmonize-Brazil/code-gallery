@@ -1,11 +1,14 @@
 #!/bin/bash
 
+echo ">>> Installing cube4health"
+pip install --no-deps git+https://github.com/Harmonize-Brazil/cube4health.git@main
+
 echo ">>> Preparing Jupyter environment"
 
-# Ensures that the environment's kernel appears in JupyterLab
+# Ensure the environment's kernel appears in JupyterLab
 python -m ipykernel install --user --name cube4health-binder --display-name "Cube4Health (Binder)"
 
-# Ensures Matplotlib font cache is created
+# Pre-build Matplotlib font cache
 python - <<EOF
 import matplotlib
 matplotlib.get_cachedir()
