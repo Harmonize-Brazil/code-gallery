@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo ">>> Preparing Jupyter environment"
+
+# Ensures that the environment's kernel appears in JupyterLab
+python -m ipykernel install --user --name cube4health-binder --display-name "Cube4Health (Binder)"
+
+# Ensures Matplotlib font cache is created
+python - <<EOF
+import matplotlib
+matplotlib.get_cachedir()
+EOF
+
+echo ">>> Binder postBuild completed"

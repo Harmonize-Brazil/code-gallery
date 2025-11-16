@@ -1,0 +1,32 @@
+name: cube4health-binder
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # Geospatial stack (conda is mandatory for GDAL)
+  - gdal
+  - rasterio
+  - fiona
+  - geopandas
+  - shapely
+  - pyproj
+  - rioxarray
+
+  # Science/data stack
+  - psutil
+  - tqdm
+  - pandas
+  - numpy
+  - matplotlib
+  - xarray 
+  - netcdf4
+  - h5py
+  - pyarrow
+  - fastparquet
+  - pip:
+      - cube4health @ git+https://github.com/Harmonize-Brazil/cube4health.git@master
+
