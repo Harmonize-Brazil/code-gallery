@@ -1,17 +1,15 @@
 #!/bin/bash
 
-echo ">>> Installing cube4health"
-pip install --no-deps git+https://github.com/Harmonize-Brazil/cube4health.git@main
+echo ">>> Starting Binder postBuild setup"
 
-echo ">>> Preparing Jupyter environment"
+# Create Jupyter kernel
+python -m ipykernel install --user --name cube4health-binder \
+  --display-name "Cube4Health (Binder)"
 
-# Ensure the environment's kernel appears in JupyterLab
-python -m ipykernel install --user --name cube4health-binder --display-name "Cube4Health (Binder)"
-
-# Pre-build Matplotlib font cache
+# Pre-warm Matplotlib font cache to avoid warnings on first import
 python - <<EOF
 import matplotlib
 matplotlib.get_cachedir()
 EOF
 
-echo ">>> Binder postBuild completed"
+echo ">>> Binder postBuild completed successfully"
