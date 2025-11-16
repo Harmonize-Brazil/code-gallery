@@ -7,16 +7,16 @@ dependencies:
   - python=3.11
   - pip
 
-  # Geospatial stack (pinned for stability & size)
-  - gdal=3.6.*
-  - rasterio=1.3.*
-  - fiona=1.9.*
+  # Python geospatial bindings (use system-provided GDAL/PROJ/GEOS)
+  - gdal
+  - rasterio
+  - fiona
   - geopandas
   - shapely
   - pyproj
   - rioxarray
 
-  # Scientific stack
+  # Science stack
   - numpy
   - pandas
   - xarray
