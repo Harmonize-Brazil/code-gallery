@@ -3,11 +3,11 @@ channels:
   - conda-forge
 
 dependencies:
-  # Python
+  # Core Python
   - python=3.10
   - pip
 
-  # Essential geospatial stack (Binder-friendly)
+  # Geospatial stack (conda needed for GDAL binaries)
   - gdal
   - rasterio
   - fiona
@@ -19,6 +19,15 @@ dependencies:
   # Scientific stack
   - numpy
   - pandas
-  - matplotlib
   - xarray
+  - matplotlib
+  - psutil
   - tqdm
+  - netcdf4
+  - h5py
+  - pyarrow
+  - fastparquet
+
+  # Install cube4health directly from GitHub
+  - pip:
+      - git+https://github.com/Harmonize-Brazil/cube4health@main
