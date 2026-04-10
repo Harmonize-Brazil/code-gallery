@@ -1,0 +1,15 @@
+#!/bin/bash
+echo ">>> Running Binder postBuild"
+
+# Create Jupyter kernel
+python -m ipykernel install --user \
+  --name cube4health-binder \
+  --display-name "Cube4Health (Binder)"
+
+# Warm matplotlib font cache
+python - <<EOF
+import matplotlib
+matplotlib.get_cachedir()
+EOF
+
+echo ">>> postBuild completed"

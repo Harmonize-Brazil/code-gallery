@@ -1,0 +1,33 @@
+name: cube4health-binder
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Python
+  - python=3.11
+  - pip
+
+  # Python geospatial bindings (use system-provided GDAL/PROJ/GEOS)
+  - gdal
+  - rasterio
+  - fiona
+  - geopandas
+  - shapely
+  - pyproj
+  - rioxarray
+
+  # Science stack
+  - numpy
+  - pandas
+  - xarray
+  - matplotlib
+  - psutil
+  - tqdm
+  - netcdf4
+  - h5py
+  - pyarrow
+  - fastparquet
+
+  # Install cube4health from GitHub
+  - pip:
+      - git+https://github.com/Harmonize-Brazil/cube4health@main
