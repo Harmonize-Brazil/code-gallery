@@ -4,7 +4,7 @@
 <a href='https://www.harmonize-tools.org/'><img src='https://github.com/Harmonize-Brazil/code-gallery/blob/main/img/harmonize_logo_without_white_background.png' align="right" height="110" /></a>
 
 <br>
-<h1 style="text-align: center;">HARMONIZE Annual Meeting</h1>
+<h1 style="text-align: center;">HARMONIZE INPE Training</h1>
 
 <!-- badges: start -->
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
