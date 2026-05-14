@@ -41,4 +41,5 @@ A gallery of Jupyter Notebooks based on data and technologies from Earth Observa
 
 - Introduction to EODCtHRS Health Indicator PRocessing (EHIPR) package. ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/Python/ehipr/spatializing_lis_indicator.ipynb)).
   
-- Introduction to EODCtHRS R Climate Processing (rclimpr) package.  ([R](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/R/rclimpr/climate_indicator.ipynb)).
+- Introduction to EODCtHRS Climate Processing (eclimpr) package.  ([Python](https://github.com/Harmonize-Brazil/code-gallery/blob/main/jupyter/Python/eclimpr/climate_temp_max_eclimpr.ipynb)).
+
